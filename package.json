@@ -1,5 +1,14 @@
 {
-  "name": "yunshi-bot",
+  "name": "line-horoscope-bot",
   "version": "1.0.0",
-  "main": "index.js"
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.11"
+  },
+  "engines": { "node": "22.x" }
 }
